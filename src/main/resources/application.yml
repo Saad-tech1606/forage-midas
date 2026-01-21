@@ -1,0 +1,21 @@
+server:
+  port: 33400
+
+general:
+  kafka-topic: midas-topic
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:midas-db
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+
+  h2:
+    console:
+      enabled: true

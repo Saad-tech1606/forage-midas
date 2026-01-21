@@ -1,4 +1,5 @@
 package com.jpmc.midascore;
+import org.junit.jupiter.api.Test;
 
 import com.jpmc.midascore.foundation.Balance;
 import org.junit.jupiter.api.Test;
