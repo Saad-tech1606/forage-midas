@@ -36,14 +36,15 @@ It is designed using a microservice-inspired architecture and integrates event-d
 
 ---
 
-Project Structure
-src/
- ├── controller/
- ├── service/
- ├── repository/
- ├── model/
- └── config/
+---
 
+## 📁 Project Structure
+src/
+├── controller/ # Handles API requests
+├── service/ # Business logic layer
+├── repository/ # Database interactions (JPA)
+├── model/ # Entity classes
+└── config/ # Configuration (Kafka, etc.)
  ---
 
 ## 🏗️ System Architecture
